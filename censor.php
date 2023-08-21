@@ -40,7 +40,7 @@ $censoredWord = $_GET['censored']
                 </h2>
 
                 <?php
-                    echo strlen( trim(str_replace($censoredWord, '***', $paragraph)));
+                    echo strlen($paragraph);
                 ?>
 
             </p>
@@ -78,7 +78,7 @@ $censoredWord = $_GET['censored']
         </div>
 
         <div>
-            
+
             <p>
                 
                 <h2>
