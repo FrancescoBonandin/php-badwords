@@ -15,16 +15,28 @@
         
         <form action="censor.php" method="get">
 
-            <textarea name="paragraph" id="" cols="30" rows="10" placeholder='Write something...'></textarea>
+            <div>
 
-            <input type="text" name="censored" id="" placeholder='censored word ...'>
+                <textarea name="paragraph" id="" cols="30" rows="10" placeholder='Write something...'></textarea>
+
+            </div>
+
+            <div>
+                
+                <input type="text" name="censored" id="" placeholder='censored word ...'>
             
-            <button type="submit">
-                submit
-            </button>
+            </div>
+
+            <div>
+
+                <button type="submit">
+                    submit
+                </button>
+
+            </div>
 
         </form>
-        
+
     </body>
 
 </html>
