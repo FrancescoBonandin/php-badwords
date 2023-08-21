@@ -40,3 +40,9 @@
     </body>
 
 </html>
+
+<style>
+    body > *{
+        text-align:center;
+    }
+</style>

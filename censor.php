@@ -49,29 +49,41 @@ $censoredWord = $_GET['censored']
 
         </div>
 
-        <p>
-            
-            <h2>
-                Censored word:
-            </h2>
+        <div>
+            <p>
+                
+                <h2>
+                    Censored word:
+                </h2>
+    
+                <?php
+                    echo $censoredWord;
+                ?>
+            </p>
+    
+            <p>
+                
+                <h2>
+                    Length:
+                </h2>
+                   
+    
+                <?php
+                    echo strlen( trim($censoredWord))
+                ?>
+            </p>
 
-            <?php
-                echo $censoredWord;
-            ?>
-        </p>
+        </div>
 
-        <p>
-            
-            <h2>
-                Length:
-            </h2>
-               
-
-            <?php
-                echo strlen( trim($censoredWord))
-            ?>
-        </p>
         
     </body>
 
 </html>
+
+<style>
+
+    body > *{
+        text-align:center;
+    }
+
+</style>
